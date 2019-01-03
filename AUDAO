@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.AU;
+public interface AUDAO {
+	public boolean addAU(AU au) throws Exception; 
+	public boolean delAU(String sql) throws Exception; 
+	public boolean updateAU(String sql) throws Exception;
+	public ArrayList<AU> getAU(String sql) throws Exception;
+
+}
