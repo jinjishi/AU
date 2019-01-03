@@ -1,0 +1,25 @@
+# AU
+package intership2.dao;
+public class AU {
+public String Address;
+public String Consignee;
+public String Nickname;
+public String GetterAddress() {
+	return this.Address;
+}
+public void SetterAddress(String Address) {
+	this.Address=Address;
+}
+public String GetterConsignee() {
+	return this.Consignee;
+}
+public void SetterConsignee(String Consignee) {
+	this.Consignee=Consignee;
+}
+public String GetterNickname() {
+	return this.Nickname;
+}
+public void SetterNickname(String Nickname) {
+	this.Nickname=Nickname;
+}
+}
